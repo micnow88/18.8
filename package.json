@@ -1,0 +1,26 @@
+{
+  "name": "18.8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micnow88/18.8.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micnow88/18.8/issues"
+  },
+  "homepage": "https://github.com/micnow88/18.8#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "babel-standalone": "^6.26.0"
+  }
+}
