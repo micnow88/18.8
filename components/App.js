@@ -39,9 +39,11 @@ App = React.createClass({
                 sourceUrl: data.url
             };
             resolve(gif);
-        } else {reject(new Error('wrong responde'))}
-    };
-    xhr.send();
+          } else {reject(new Error('wrong responde'))}
+        };
+        xhr.send();
+      }
+    );
   },
 
   render: function() {
