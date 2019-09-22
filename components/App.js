@@ -48,6 +48,8 @@ App = React.createClass({
 
   render: function() {
 
+    const state = {loading, gif:{url, sourceUrl}}
+
     var styles = {
       margin: '0 auto',
       textAlign: 'center',
@@ -60,9 +62,9 @@ App = React.createClass({
         <p>Znajdź gifa na <a href='http://giphy.com'>giphy</a>. Naciskaj enter, aby pobrać kolejne gify.</p>
         <Search onSearch={this.handleSearch}/>
         <Gif
-            loading={this.state.loading}
-            url={this.state.gif.url}
-            sourceUrl={this.state.gif.sourceUrl}
+            loading={this.loading}
+            url={this.url}
+            sourceUrl={this.sourceUrl}
         />
       </div>
     );
