@@ -48,7 +48,7 @@ App = React.createClass({
 
   render: function() {
 
-    const this.state = {loading, gif:{url, sourceUrl}}
+    const {loading, gif:{url, sourceUrl}} = this.state;
 
     var styles = {
       margin: '0 auto',
